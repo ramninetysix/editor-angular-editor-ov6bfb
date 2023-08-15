@@ -19,4 +19,7 @@ export class AppComponent {
   Decrease() {
     this.DataService.count--;
   }
+  Original() {
+    this.DataService.count = 0;
+  }
 }
