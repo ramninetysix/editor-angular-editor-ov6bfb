@@ -12,7 +12,7 @@ export class HelloComponent {
   @Input() name: string;
 
   constructor(private DataService: MyService) {
-    DataService.count;
+    DataService.count++;
   }
   // @Input() name1: string;
 }

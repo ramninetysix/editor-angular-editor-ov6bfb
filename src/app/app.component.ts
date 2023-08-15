@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { count } from 'rxjs/operators';
 import { MyService } from '../Services/Data.Service';
 
 @Component({

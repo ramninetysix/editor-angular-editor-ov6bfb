@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+//@Injectable()
+
 export class MyService {
   count = 0;
-  constructor() {}
+  //constructor() {}
 }
